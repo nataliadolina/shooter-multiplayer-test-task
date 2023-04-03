@@ -15,9 +15,6 @@ namespace Game.UI.Abstract
         [SerializeField] private Transform center;
         [SerializeField] private Transform edgePoint;
 
-        [Space]
-        [SerializeField] private UIRectangleZone joystickRectangleZone;
-
         private Vector2 _joystickStartPosition;
 
         private Vector2 _joystickUpdatedPosition;
@@ -95,6 +92,8 @@ namespace Game.UI.Abstract
 #region Injections
 
         [Inject] private TouchInputSystem _touchInputSystem;
+
+        [Inject] private UIRectangleZone joystickRectangleZone;
 
         [Inject]
         private void OnConstruct()

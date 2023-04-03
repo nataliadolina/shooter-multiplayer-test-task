@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4645047035437387066}
   - component: {fileID: 209207346}
   - component: {fileID: 1009629861245921568}
+  - component: {fileID: 1999572373}
   m_Layer: 5
   m_Name: JoystickZone
   m_TagString: Untagged
@@ -66,6 +67,24 @@ MonoBehaviour:
   right: {fileID: 7440527361021644995}
   down: {fileID: 7908655124692174956}
   up: {fileID: 3643334535708636482}
+--- !u!114 &1999572373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4645047035437387045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0166d8ff8d905b048b2448179e1f5d11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _components:
+  - {fileID: 1009629861245921568}
+  _identifier: 
+  _useSceneContext: 0
+  _context: {fileID: 0}
+  _bindType: 0
 --- !u!1 &5171998412292516157
 GameObject:
   m_ObjectHideFlags: 0

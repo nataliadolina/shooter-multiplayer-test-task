@@ -206,7 +206,6 @@ MonoBehaviour:
   knobTransform: {fileID: 815053711}
   center: {fileID: 1599556586}
   edgePoint: {fileID: 159934586}
-  joystickRectangleZone: {fileID: 0}
 --- !u!1 &8526647494109170388
 GameObject:
   m_ObjectHideFlags: 0
